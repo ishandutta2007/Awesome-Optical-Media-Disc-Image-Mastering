@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Disc Holographic Gradient -->
+    <linearGradient id="holoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="25%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#f472b6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Laser Beam Gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ef4444" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f87171" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="50%" stop-color="#a5b4fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        fill: url(#titleGrad);
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        fill: #94a3b8;
+      }
+      .tag-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e0e7ff;
+      }
+      
+      /* Dynamic Animations (kept in background/side so foreground text is crystal clear) */
+      @keyframes spinDisc {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseLaser {
+        0%, 100% { opacity: 0.3; transform: scaleX(0.95); }
+        50% { opacity: 0.9; transform: scaleX(1.05); }
+      }
+      @keyframes floatPill {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes shimmerTrack {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 400; }
+      }
+      
+      .rotating-disc {
+        transform-origin: 1040px 180px;
+        animation: spinDisc 20s linear infinite;
+      }
+      .laser-pulse {
+        transform-origin: 1040px 180px;
+        animation: pulseLaser 2.5s ease-in-out infinite;
+      }
+      .floating-tag-1 {
+        animation: floatPill 4s ease-in-out infinite;
+      }
+      .floating-tag-2 {
+        animation: floatPill 5s ease-in-out infinite 1s;
+      }
+      .floating-tag-3 {
+        animation: floatPill 4.5s ease-in-out infinite 0.5s;
+      }
+      .track-shimmer {
+        stroke-dasharray: 20 15;
+        animation: shimmerTrack 12s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Circuit / Track Background Grid -->
+  <g opacity="0.12">
+    <circle cx="1040" cy="180" r="280" fill="none" stroke="#60a5fa" stroke-width="1.5" class="track-shimmer" />
+    <circle cx="1040" cy="180" r="220" fill="none" stroke="#818cf8" stroke-width="1" />
+    <circle cx="1040" cy="180" r="160" fill="none" stroke="#c084fc" stroke-width="1.5" class="track-shimmer" />
+    <path d="M 0 60 Q 600 120 1200 60" fill="none" stroke="#38bdf8" stroke-width="1" />
+    <path d="M 0 300 Q 600 240 1200 300" fill="none" stroke="#a855f7" stroke-width="1" />
+  </g>
+
+  <!-- Rotating Holographic Optical Disc (Right Side Background Element) -->
+  <g class="rotating-disc">
+    <!-- Outer Disc Edge -->
+    <circle cx="1040" cy="180" r="140" fill="#0f172a" stroke="url(#holoGrad)" stroke-width="6" opacity="0.85" filter="url(#glow)" />
+    <!-- Data Track Rings -->
+    <circle cx="1040" cy="180" r="120" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.4" stroke-dasharray="10 6" />
+    <circle cx="1040" cy="180" r="100" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.5" />
+    <circle cx="1040" cy="180" r="80" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.4" stroke-dasharray="16 8" />
+    <circle cx="1040" cy="180" r="60" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.5" />
+    
+    <!-- Holographic Rainbow Reflections -->
+    <path d="M 1040 180 L 1180 180 A 140 140 0 0 1 1139 279 Z" fill="url(#holoGrad)" opacity="0.25" />
+    <path d="M 1040 180 L 900 180 A 140 140 0 0 1 941 81 Z" fill="url(#holoGrad)" opacity="0.25" />
+    
+    <!-- Inner Hub / Spindle Hole -->
+    <circle cx="1040" cy="180" r="38" fill="#1e1b4b" stroke="#60a5fa" stroke-width="3" />
+    <circle cx="1040" cy="180" r="18" fill="#0a0f1d" stroke="#cbd5e1" stroke-width="2" />
+  </g>
+
+  <!-- Dynamic Laser Reading Head / Burner Beam -->
+  <g class="laser-pulse">
+    <line x1="880" y1="180" x2="1040" y2="180" stroke="url(#laserGrad)" stroke-width="3" filter="url(#glow)" />
+    <circle cx="990" cy="180" r="4" fill="#ef4444" filter="url(#glow)" />
+  </g>
+
+  <!-- Foreground Content: Header, Badges, Descriptions -->
+  <g transform="translate(60, 0)">
+    
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 52)">
+      <rect width="210" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+      <circle cx="16" cy="15" r="5" fill="#38bdf8" filter="url(#glow)" />
+      <text x="30" y="20" class="tag-text" fill="#38bdf8">OPTICAL MEDIA &amp; ISOs</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="132" class="title-text">Awesome Optical Media &amp;</text>
+    <text x="0" y="180" class="title-text">Disc Image Mastering</text>
+
+    <!-- Subtitle / Meta Description -->
+    <text x="0" y="222" class="subtitle-text">Curated guide to SaaS, commercial suites &amp; open-source mastering software</text>
+    <text x="0" y="246" class="subtitle-text">CD • DVD • Blu-ray • ISO 9660 • UDF • Archival Preservation • Data Duplication</text>
+
+    <!-- Floating Interactive Technology Badges (Foreground Left-Bottom) -->
+    <g transform="translate(0, 282)">
+      <!-- Pill 1 -->
+      <g class="floating-tag-1">
+        <rect width="130" height="34" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+        <text x="65" y="21" class="tag-text" text-anchor="middle">🔥 Disc Burning</text>
+      </g>
+
+      <!-- Pill 2 -->
+      <g transform="translate(142, 0)" class="floating-tag-2">
+        <rect width="145" height="34" rx="8" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.5" />
+        <text x="72" y="21" class="tag-text" text-anchor="middle">💽 ISO Authoring</text>
+      </g>
+
+      <!-- Pill 3 -->
+      <g transform="translate(299, 0)" class="floating-tag-3">
+        <rect width="160" height="34" rx="8" fill="#1e1b4b" stroke="#ec4899" stroke-width="1.5" />
+        <text x="80" y="21" class="tag-text" text-anchor="middle">🏛️ Bit-Accurate Ripping</text>
+      </g>
+
+      <!-- Pill 4 -->
+      <g transform="translate(471, 0)" class="floating-tag-1">
+        <rect width="140" height="34" rx="8" fill="#1e1b4b" stroke="#06b6d4" stroke-width="1.5" />
+        <text x="70" y="21" class="tag-text" text-anchor="middle">⚡ Open-Source</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
