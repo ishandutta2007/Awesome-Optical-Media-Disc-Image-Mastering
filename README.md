@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering?style=flat-square&logo=github" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Optical-Media-Disc-Image-Mastering/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -146,25 +146,25 @@ Self-hosted, community-driven Optical Media and Disc Image Mastering software. T
 
 *Sorted descending by GitHub stargazer count:*
 
-| Repository | GitHub Stars | License | Primary Stack | Primary Use Case |
+| Repository | GitHub_Stars | License | Primary Stack | Primary Use Case |
 |:---|:---:|:---|:---|:---|
-| **🎨 [DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)** | [![GitHub stars](https://img.shields.io/github/stars/JiaFeiMiao-K-Cat/DiscImageStudio?style=social&color=white)](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/stargazers) | Open Source | C# / .NET | Visual disc surface dithering & hybrid data authoring |
-| **📦 [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator)** | [![GitHub stars](https://img.shields.io/github/stars/saramibreak/DiscImageCreator?style=social&color=white)](https://github.com/saramibreak/DiscImageCreator/stargazers) | Open Source | C / C++ | Bit-accurate forensic disc ripping & media preservation |
-| **🛡️ [dvdisaster](https://github.com/speed47/dvdisaster)** | [![GitHub stars](https://img.shields.io/github/stars/speed47/dvdisaster?style=social&color=white)](https://github.com/speed47/dvdisaster/stargazers) | GPL-3.0 | C | Error-correcting code (ECC) recovery & disc bit-rot protection |
-| **🎬 [dvd-creator](https://github.com/sarswaabhimanyu-crypto/dvd-creator)** | [![GitHub stars](https://img.shields.io/github/stars/sarswaabhimanyu-crypto/dvd-creator?style=social&color=white)](https://github.com/sarswaabhimanyu-crypto/dvd-creator/stargazers) | MIT | Python / PyQt | DVD video authoring, ISO master packaging, and disc burning |
-| **🐧 [K3b](https://github.com/KDE/k3b)** | [![GitHub stars](https://img.shields.io/github/stars/KDE/k3b?style=social&color=white)](https://github.com/KDE/k3b/stargazers) | GPL-2.0 | C++ / Qt / KDE | Full-featured Linux desktop CD/DVD/Blu-ray burning suite |
-| **🪟 [InfraRecorder](https://github.com/kindahl/infrarecorder)** | [![GitHub stars](https://img.shields.io/github/stars/kindahl/infrarecorder?style=social&color=white)](https://github.com/kindahl/infrarecorder/stargazers) | GPL-3.0 | C++ | Lightweight native Windows CD/DVD recording application |
-| **🎞️ [dvdauthor](https://github.com/ldo/dvdauthor)** | [![GitHub stars](https://img.shields.io/github/stars/ldo/dvdauthor?style=social&color=white)](https://github.com/ldo/dvdauthor/stargazers) | GPL-2.0 | C | Low-level DVD-Video authoring engine & menu generator |
-| **🔥 [Brasero](https://github.com/GNOME/brasero)** | [![GitHub stars](https://img.shields.io/github/stars/GNOME/brasero?style=social&color=white)](https://github.com/GNOME/brasero/stargazers) | GPL-2.0 | C / GTK | Standard GNOME disc burning and media copying utility |
-| **🚀 [Open Burning Suite](https://github.com/SvenGDK/OpenBurningSuite)** | [![GitHub stars](https://img.shields.io/github/stars/SvenGDK/OpenBurningSuite?style=social&color=white)](https://github.com/SvenGDK/OpenBurningSuite/stargazers) | BSD-2-Clause | C# / .NET 8 / Avalonia | Cross-platform burning suite with native SCSI/MMC commands |
-| **📀 [xorriso](https://github.com/Distrotech/xorriso)** | [![GitHub stars](https://img.shields.io/github/stars/Distrotech/xorriso?style=social&color=white)](https://github.com/Distrotech/xorriso/stargazers) | GPL-3.0 | C | ISO 9660 Rock Ridge / Joliet filesystem builder and burner |
-| **🪟 [cdrtfe](https://github.com/UdoKifferbrehl/cdrtfe)** | [![GitHub stars](https://img.shields.io/github/stars/UdoKifferbrehl/cdrtfe?style=social&color=white)](https://github.com/UdoKifferbrehl/cdrtfe/stargazers) | GPL-2.0 | C++ / cdrtools | Windows cdrtools GUI with simultaneous multi-writer support |
-| **🐍 [PyBurn Studio](https://github.com/Mr5niper/PyBurn-Studio)** | [![GitHub stars](https://img.shields.io/github/stars/Mr5niper/PyBurn-Studio?style=social&color=white)](https://github.com/Mr5niper/PyBurn-Studio/stargazers) | Open Source | Python / PyQt6 | Dual-engine burning workflow with native Windows SPTI support |
+| **🎨 [DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)** | [![GitHub_Stars](https://img.shields.io/github/stars/JiaFeiMiao-K-Cat/DiscImageStudio?style=social&color=white)](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/stargazers) | Open Source | C# / .NET | Visual disc surface dithering & hybrid data authoring |
+| **📦 [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator)** | [![GitHub_Stars](https://img.shields.io/github/stars/saramibreak/DiscImageCreator?style=social&color=white)](https://github.com/saramibreak/DiscImageCreator/stargazers) | Open Source | C / C++ | Bit-accurate forensic disc ripping & media preservation |
+| **🛡️ [dvdisaster](https://github.com/speed47/dvdisaster)** | [![GitHub_Stars](https://img.shields.io/github/stars/speed47/dvdisaster?style=social&color=white)](https://github.com/speed47/dvdisaster/stargazers) | GPL-3.0 | C | Error-correcting code (ECC) recovery & disc bit-rot protection |
+| **🎬 [dvd-creator](https://github.com/sarswaabhimanyu-crypto/dvd-creator)** | [![GitHub_Stars](https://img.shields.io/github/stars/sarswaabhimanyu-crypto/dvd-creator?style=social&color=white)](https://github.com/sarswaabhimanyu-crypto/dvd-creator/stargazers) | MIT | Python / PyQt | DVD video authoring, ISO master packaging, and disc burning |
+| **🐧 [K3b](https://github.com/KDE/k3b)** | [![GitHub_Stars](https://img.shields.io/github/stars/KDE/k3b?style=social&color=white)](https://github.com/KDE/k3b/stargazers) | GPL-2.0 | C++ / Qt / KDE | Full-featured Linux desktop CD/DVD/Blu-ray burning suite |
+| **🪟 [InfraRecorder](https://github.com/kindahl/infrarecorder)** | [![GitHub_Stars](https://img.shields.io/github/stars/kindahl/infrarecorder?style=social&color=white)](https://github.com/kindahl/infrarecorder/stargazers) | GPL-3.0 | C++ | Lightweight native Windows CD/DVD recording application |
+| **🎞️ [dvdauthor](https://github.com/ldo/dvdauthor)** | [![GitHub_Stars](https://img.shields.io/github/stars/ldo/dvdauthor?style=social&color=white)](https://github.com/ldo/dvdauthor/stargazers) | GPL-2.0 | C | Low-level DVD-Video authoring engine & menu generator |
+| **🔥 [Brasero](https://github.com/GNOME/brasero)** | [![GitHub_Stars](https://img.shields.io/github/stars/GNOME/brasero?style=social&color=white)](https://github.com/GNOME/brasero/stargazers) | GPL-2.0 | C / GTK | Standard GNOME disc burning and media copying utility |
+| **🚀 [Open Burning Suite](https://github.com/SvenGDK/OpenBurningSuite)** | [![GitHub_Stars](https://img.shields.io/github/stars/SvenGDK/OpenBurningSuite?style=social&color=white)](https://github.com/SvenGDK/OpenBurningSuite/stargazers) | BSD-2-Clause | C# / .NET 8 / Avalonia | Cross-platform burning suite with native SCSI/MMC commands |
+| **📀 [xorriso](https://github.com/Distrotech/xorriso)** | [![GitHub_Stars](https://img.shields.io/github/stars/Distrotech/xorriso?style=social&color=white)](https://github.com/Distrotech/xorriso/stargazers) | GPL-3.0 | C | ISO 9660 Rock Ridge / Joliet filesystem builder and burner |
+| **🪟 [cdrtfe](https://github.com/UdoKifferbrehl/cdrtfe)** | [![GitHub_Stars](https://img.shields.io/github/stars/UdoKifferbrehl/cdrtfe?style=social&color=white)](https://github.com/UdoKifferbrehl/cdrtfe/stargazers) | GPL-2.0 | C++ / cdrtools | Windows cdrtools GUI with simultaneous multi-writer support |
+| **🐍 [PyBurn Studio](https://github.com/Mr5niper/PyBurn-Studio)** | [![GitHub_Stars](https://img.shields.io/github/stars/Mr5niper/PyBurn-Studio?style=social&color=white)](https://github.com/Mr5niper/PyBurn-Studio/stargazers) | Open Source | Python / PyQt6 | Dual-engine burning workflow with native Windows SPTI support |
 
 ---
 
 ### 🎨 DiscImageStudio
-[![GitHub stars](https://img.shields.io/github/stars/JiaFeiMiao-K-Cat/DiscImageStudio?style=social&color=white)](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/JiaFeiMiao-K-Cat/DiscImageStudio?style=social&color=white)](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/stargazers)  
 - **Stack:** 💻 C# / .NET | **License:** 📜 Open Source (GitHub)  
 DiscImageStudio is a specialized open-source utility for **encoding visible picture images into the physical data layer of optical discs** using grayscale dithering algorithms on CD, DVD, and BD-R media.
 - 💿 **Hybrid-disc layout**: Combines optical artwork with readable filesystem data.
@@ -173,7 +173,7 @@ DiscImageStudio is a specialized open-source utility for **encoding visible pict
 - 💡 **Best for:** Artists and collectors creating custom physical optical disc art with functional storage.
 
 ### 📦 DiscImageCreator
-[![GitHub stars](https://img.shields.io/github/stars/saramibreak/DiscImageCreator?style=social&color=white)](https://github.com/saramibreak/DiscImageCreator/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/saramibreak/DiscImageCreator?style=social&color=white)](https://github.com/saramibreak/DiscImageCreator/stargazers)  
 - **Stack:** 💻 C / C++ | **License:** 📜 Open Source (GitHub)  
 DiscImageCreator is a gold-standard command-line tool in digital preservation for bit-accurate disc dumping across CD, DVD, GD-ROM, Blu-ray, Xbox 360, GameCube/Wii, and MO discs.
 - 🔍 **Bit-accurate extraction**: Scans lead-in, lead-out, and subchannel data without loss.
@@ -181,7 +181,7 @@ DiscImageCreator is a gold-standard command-line tool in digital preservation fo
 - 💡 **Best for:** Digital archivists, video game preservationists, and media forensic specialists.
 
 ### 🛡️ dvdisaster
-[![GitHub stars](https://img.shields.io/github/stars/speed47/dvdisaster?style=social&color=white)](https://github.com/speed47/dvdisaster/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/speed47/dvdisaster?style=social&color=white)](https://github.com/speed47/dvdisaster/stargazers)  
 - **Stack:** 💻 C / GTK | **License:** 📜 GPL-3.0  
 dvdisaster safeguards optical discs against data loss caused by aging, scratching, or bit rot by generating error-correcting code (ECC) data files or augmenting ISO images with Reed-Solomon protection.
 - 🛡️ **Bit-rot defense**: Recovers unreadable sectors using RS01, RS02, and RS03 redundancy structures.
@@ -189,7 +189,7 @@ dvdisaster safeguards optical discs against data loss caused by aging, scratchin
 - 💡 **Best for:** Long-term cold-storage archiving and damaged disc data salvage.
 
 ### 🎬 dvd-creator
-[![GitHub stars](https://img.shields.io/github/stars/sarswaabhimanyu-crypto/dvd-creator?style=social&color=white)](https://github.com/sarswaabhimanyu-crypto/dvd-creator/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/sarswaabhimanyu-crypto/dvd-creator?style=social&color=white)](https://github.com/sarswaabhimanyu-crypto/dvd-creator/stargazers)  
 - **Stack:** 🐍 Python / PyQt | **License:** 📜 MIT  
 dvd-creator is a modern desktop disc authoring suite designed for assembling DVD-Video structures, building custom menus, rendering chapters, and burning ISO disc masters directly.
 - 🎞️ **End-to-end authoring**: Automated video transcoding into MPEG-2 compliant streams.
@@ -197,7 +197,7 @@ dvd-creator is a modern desktop disc authoring suite designed for assembling DVD
 - 💡 **Best for:** Videographers and enthusiasts authoring DVD-Video media.
 
 ### 🐧 K3b
-[![GitHub stars](https://img.shields.io/github/stars/KDE/k3b?style=social&color=white)](https://github.com/KDE/k3b/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/KDE/k3b?style=social&color=white)](https://github.com/KDE/k3b/stargazers)  
 - **Stack:** 💻 C++ / Qt / KDE Frameworks | **License:** 📜 GPL-2.0  
 K3b is the flagship optical disc authoring application for Linux and the KDE desktop, providing an intuitive dual-pane interface with extensive backend plugin support.
 - 🎵 **Multi-format audio**: On-the-fly audio decoding from FLAC, MP3, and OGG to Red Book CD.
@@ -205,7 +205,7 @@ K3b is the flagship optical disc authoring application for Linux and the KDE des
 - 💡 **Best for:** Linux power users wanting a feature-complete desktop disc mastering station.
 
 ### 🪟 InfraRecorder
-[![GitHub stars](https://img.shields.io/github/stars/kindahl/infrarecorder?style=social&color=white)](https://github.com/kindahl/infrarecorder/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/kindahl/infrarecorder?style=social&color=white)](https://github.com/kindahl/infrarecorder/stargazers)  
 - **Stack:** 💻 C++ / Win32 | **License:** 📜 GPL-3.0  
 InfraRecorder is a clean, lightweight open-source CD/DVD recording solution for Windows that integrates directly into Windows Explorer.
 - 💾 **Dual-layer & multisession**: Full support for dual-layer DVDs, blanking rewritable discs, and burning BIN/CUE and ISO images.
@@ -213,14 +213,14 @@ InfraRecorder is a clean, lightweight open-source CD/DVD recording solution for 
 - 💡 **Best for:** Windows users wanting a fast, native, spyware-free disc burner.
 
 ### 🎞️ dvdauthor
-[![GitHub stars](https://img.shields.io/github/stars/ldo/dvdauthor?style=social&color=white)](https://github.com/ldo/dvdauthor/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/ldo/dvdauthor?style=social&color=white)](https://github.com/ldo/dvdauthor/stargazers)  
 - **Stack:** 💻 C | **License:** 📜 GPL-2.0  
 dvdauthor is the foundational command-line authoring tool that generates DVD-Video compliant file structures (`AUDIO_TS` and `VIDEO_TS` containing IFO, VOB, and BUP files) from multiplexed MPEG streams.
 - ⚙️ **Scriptable XML architecture**: Precise control over navigation menus, subtitles, and chapter buttons.
 - 💡 **Best for:** Automated pipelines, transcoding scripts, and backend media servers.
 
 ### 🔥 Brasero
-[![GitHub stars](https://img.shields.io/github/stars/GNOME/brasero?style=social&color=white)](https://github.com/GNOME/brasero/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/GNOME/brasero?style=social&color=white)](https://github.com/GNOME/brasero/stargazers)  
 - **Stack:** 💻 C / GTK | **License:** 📜 GPL-2.0  
 Brasero is the official disc burning application of the GNOME desktop environment, engineered for simplicity and ease of use.
 - 📁 **Data & audio mastering**: Drag-and-drop file organization with automatic file integrity checking.
@@ -228,7 +228,7 @@ Brasero is the official disc burning application of the GNOME desktop environmen
 - 💡 **Best for:** Standard GNOME/Ubuntu desktop users needing casual burning.
 
 ### 🚀 Open Burning Suite
-[![GitHub stars](https://img.shields.io/github/stars/SvenGDK/OpenBurningSuite?style=social&color=white)](https://github.com/SvenGDK/OpenBurningSuite/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/SvenGDK/OpenBurningSuite?style=social&color=white)](https://github.com/SvenGDK/OpenBurningSuite/stargazers)  
 - **Stack:** 💻 C# / .NET 8 / Avalonia UI | **License:** 📜 BSD-2-Clause  
 Open Burning Suite is a cross-platform burning suite for Windows, Linux, and macOS that directly issues SCSI/MMC commands to optical drives without relying on external toolchains.
 - 📀 **Next-gen media**: Supports BDXL, M-DISC, CD-R/RW, DVD±R/RW, and HD DVD.
@@ -236,21 +236,21 @@ Open Burning Suite is a cross-platform burning suite for Windows, Linux, and mac
 - 💡 **Best for:** Cross-platform creators requiring gaming disc workflows and modern UI.
 
 ### 📀 xorriso
-[![GitHub stars](https://img.shields.io/github/stars/Distrotech/xorriso?style=social&color=white)](https://github.com/Distrotech/xorriso/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Distrotech/xorriso?style=social&color=white)](https://github.com/Distrotech/xorriso/stargazers)  
 - **Stack:** 💻 C | **License:** 📜 GPL-3.0  
 xorriso copies file objects from POSIX compliant filesystems into Rock Ridge enhanced ISO 9660 filesystems and operates as a standalone disc burner for CD, DVD, and BD media.
 - 🐧 **Linux distro mastering**: The engine used by Debian, Ubuntu, and Arch Linux to generate hybrid bootable installation ISOs.
 - 💡 **Best for:** OS distribution maintainers, DevOps release pipelines, and bootable ISO builders.
 
 ### 🪟 cdrtfe
-[![GitHub stars](https://img.shields.io/github/stars/UdoKifferbrehl/cdrtfe?style=social&color=white)](https://github.com/UdoKifferbrehl/cdrtfe/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/UdoKifferbrehl/cdrtfe?style=social&color=white)](https://github.com/UdoKifferbrehl/cdrtfe/stargazers)  
 - **Stack:** 🖥️ C++ / cdrtools | **License:** 📜 GPL-2.0  
 cdrtfe is a Windows GUI frontend for the `cdrtools` package (cdrecord, mkisofs, readcd, cdda2wav).
 - 🖨️ **Simultaneous multi-writer**: Burns disc images and audio projects to multiple writers at the same time.
 - 💡 **Best for:** Duplication stations and small-run CD/DVD publishing.
 
 ### 🐍 PyBurn Studio
-[![GitHub stars](https://img.shields.io/github/stars/Mr5niper/PyBurn-Studio?style=social&color=white)](https://github.com/Mr5niper/PyBurn-Studio/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Mr5niper/PyBurn-Studio?style=social&color=white)](https://github.com/Mr5niper/PyBurn-Studio/stargazers)  
 - **Stack:** 🐍 Python / PyQt6 | **License:** 📜 Open Source (GitHub)  
 PyBurn Studio integrates native command-line burning utilities on Linux with a built-in low-level SPTI/MMC Windows engine.
 - ⏱️ **Job batching**: Persistent queue with live verification against authored image files.
